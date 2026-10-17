@@ -1,0 +1,20 @@
+# Build output
+.build/
+build/
+.swiftpm/
+*.xcodeproj/xcuserdata/
+.DS_Store
+
+# Not part of the open-source app
+Sources/Billy/Invoicing/
+invoice-example.pdf
+*.invoice.pdf
+
+# Old icon artwork, no longer used
+Resources/Billy-orb-artwork.png
+Resources/Billy-orb.png
+scripts/crop-orb.py
+scripts/cutout-billy.py
+
+# Social media images, kept local
+mockups/
